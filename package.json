@@ -1,0 +1,17 @@
+{
+  "name": "netanime-video-extractor",
+  "version": "1.0.0",
+  "description": "A serverless function to extract video URLs using Playwright",
+  "main": "api/extract-video.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.40.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
